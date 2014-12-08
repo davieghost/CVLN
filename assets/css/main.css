@@ -1,0 +1,108 @@
+#the-content {
+    display: none;
+}
+body {
+    color: rgb(255,255,255);
+    background-color: #454545;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+}    
+#head-container {
+    height: 60px;
+    width: 100%;
+    background: rgb(40,40,40);
+    position: fixed;
+}
+.navigation-container {
+    float: right;
+}
+.nav-li {
+    display: inline-block;
+}
+.splash-screen {
+    height: 541px;
+    width: 100%;
+    padding-top: 250px;
+    box-sizing: border-box;
+}
+.headline-container {
+    width: 675px;
+    height: 158px;
+    margin: 0 auto;
+    background: rgba(40,40,40,0.5);
+    padding-top: 43px;
+    box-sizing: border-box;
+}
+.red-section {
+    height:300px;
+    width: 100%;
+    background-color: rgb(206,32,47);
+}
+.our-people {
+    height: 1223px;
+    width: 100%;
+    background-color: rgb(255,255,255);
+}
+.our-space, .our-work , .our-clients, .our-things, .contact-us {
+    height: 600px;
+    width: 100%;
+    /*background-color: rgb(255,255,255);*/
+}
+.our-clients, .our-things, .contact-us {
+    background-color: rgb(255,255,255);
+}
+footer{
+    height: 406px;
+    width: 100%;
+    background-color: rgb(16,16,16);
+}
+
+/* fonts */
+
+.main-headline {
+    text-transform: uppercase;
+    font-family: 'Muli', sans-serif;
+    font-size: 42px;
+}
+.second-headline {
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+    font-size: 20px;
+}
+.red-line {
+    color: rgb(206,32,47);
+}
+.red-section h1 {
+    font-family: 'Droid Serif', serif;
+    font-size: 36px;
+}
+.main-sections h1 {
+    font-family: 'Droid Serif', serif;
+    font-size: 30px;
+}
+.main-sections h2 {
+    font-family: 'Muli', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.our-people, .our-things, .our-clients, .contact-us {
+    color: rgb(0,0,0);
+}
+/* style things */
+#bgvid {
+    position: fixed;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    /*min-height: 100%;*/
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background: url('../videos/boat.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
