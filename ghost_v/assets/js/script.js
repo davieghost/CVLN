@@ -1,3 +1,3 @@
-$(document).ready(funciton(){
-	$('#the-content').show();
-});
+/*$(document).ready(function(){
+	$("#the-content").fadeIn(2000);
+});*/
