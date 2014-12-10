@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-top: 80px;
 }*/
 .our-space {
-    height: 820px;
+    height: 819px;
 }
 .our-things {
     height: 941px;
@@ -161,6 +161,7 @@ footer{
 .main-sections h1 {
     font-family: 'Droid Serif', serif;
     font-size: 30px;
+    margin-bottom: 10px;
 }
 .main-sections h2 {
     font-family: 'Muli', sans-serif;
@@ -279,62 +280,72 @@ footer{
     background-size: 320%;
 }
 .clearchoice {
-    background-image: url('../images/clients/');
-    background-size: contain;
+    background-image: url('../images/clients/clearchoice.png');
+    background-size: 90%;
+    /*background-size: contain;*/
     background-position: center;
     background-repeat: no-repeat;
 }
 .sears {
-    background-image: url('../images/clients/');
-    background-size: contain;
+    background-image: url('../images/clients/sears.png');
+    background-size: 90%;
+    /*background-size: contain;*/
     background-position: center;
     background-repeat: no-repeat;
 }
 .kellogg {
-    background-image: url('../images/clients/');
-    background-size: contain;
+    background-image: url('../images/clients/kellogg.png');
+    background-size: 90%;
+    /*background-size: contain;*/
     background-position: center;
     background-repeat: no-repeat;
 }
 .devry {
-    background-image: url('../images/clients/');
-    background-size: contain;
+    background-image: url('../images/clients/devry.png');
+    background-size: 90%;
+    /*background-size: contain;*/
     background-position: center;
     background-repeat: no-repeat;
 }
 .nationalrealtors {
-    background-image: url('../images/clients/');
-    background-size: contain;
+    background-image: url('../images/clients/nationalrealtors.png');
+    background-size: 90%;
+    /*background-size: contain;*/
     background-position: center;
     background-repeat: no-repeat;
 }
 .erie {
-    background-image: url('../images/clients/');
-    background-size: contain;
+    background-image: url('../images/clients/erie.png');
+    background-size: 90%;
+    /*background-size: contain;*/
     background-position: center;
     background-repeat: no-repeat;
 }
 .uscell {
-    background-image: url('../images/clients/');
-    background-size: contain;
+    background-image: url('../images/clients/uscell.png');
+    background-size: 90%;
+    /*background-size: contain;*/
     background-position: center;
     background-repeat: no-repeat;
 }
 .wilson {
-    background-image: url('../images/clients/');
-    background-size: contain;
+    background-image: url('../images/clients/wilson.png');
+    background-size: 90%;
+    /*background-size: contain;*/
     background-position: center;
     background-repeat: no-repeat;
 }
 .honeywell {
-    background-image: url('../images/clients/');
-    background-size: contain;
+    background-image: url('../images/clients/honeywell.png');
+    background-size: 90%;
+    /*background-size: contain;*/
     background-position: center;
     background-repeat: no-repeat;
 }
 .cancertreatment {
-    background-image: url('../images/clients/');
-    background-size: contain;
+    background-image: url('../images/clients/cancertreatment.png');
+    background-size: 90%;
+    /*background-size: contain;*/
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -388,7 +399,7 @@ footer{
   z-index: 1;
   /*margin:5% auto 0;*/
   height: 600px;
-  margin-top: -180px;
+  margin-top: -210px;
 }
 
 /**
@@ -676,6 +687,9 @@ a {
     position: relative;
     top: 20px;
 }
+.button:hover {
+    border: 3px solid transparent;
+}
 .button-text {
     text-transform: uppercase;
     font-size: 20px;
@@ -697,4 +711,49 @@ footer {
     background-repeat: no-repeat;
     background-position: left top;
     background-size: cover;
+    padding-top: 20px;
+}
+footer a {
+    border-bottom: 1px solid rgb(255,255,255)
+}
+.nav-li a:hover {
+    color: rgb(206,32,47);
+    border-bottom: 3px solid rgb(206,32,47);
+    padding-bottom: 4px;
+}
+.column3rds {
+/*border: 1px solid cyan;*/
+width: 32.53333%;
+height: 200px;
+display: inline-block;
+text-align: right;
+height: 92%;
+margin-top: -22px;
+padding-top: 175px;
+box-sizing: border-box;
+}
+.second-col  {
+    text-align: left;
+    padding-top: 101px;
+    vertical-align: top;
+}
+.third-col {
+    text-align: left;
+    padding-top: 100px;
+    margin-top: -20px;
+    vertical-align: top;
+}
+.footer-logo {
+    position: relative;
+    top: -64px;
+    right: 40px;
+}
+.footer-copy {
+    line-height: 22px;
+    font-family: 'Muli';
+    font-weight: 100;
+    font-size: 16px;
+}
+.client-login-area a {
+    border: none;
 }

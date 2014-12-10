@@ -430,6 +430,6 @@ function shuffle(array) {
 $(function() {
     setInterval(function() {
         var $all = $('.flip')
-        $(shuffle($all).slice(0, 2)).fadeIn().delay(10000).fadeOut();
-    },10000);
+        $(shuffle($all).slice(0, 2)).fadeIn().delay(6000).fadeOut();
+    },6000);
 });
