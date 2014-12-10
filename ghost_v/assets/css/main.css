@@ -46,9 +46,6 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     z-index: 1;
 }
-.red-section h1 {
-    
-}
 #red-section-01 {
     margin-top: 134px;
 }
@@ -63,8 +60,17 @@ h1, h2, h3, h4, h5, h6 {
     height: 600px;
     width: 100%;
 }
+/*.our-clients, .our-things {
+    padding-top: 80px;
+}*/
 .our-space {
-    height: 680px;
+    height: 820px;
+}
+.our-things {
+    height: 941px;
+}
+.our-clients {
+    margin-top: -180px;
 }
 .our-clients, .our-things, .contact-us {
     background-color: rgb(255,255,255);
@@ -85,7 +91,10 @@ footer{
 .people {
     margin-bottom: 10px;
 }
-.person {
+.clients {
+    margin-top: 20px;
+}
+.person, .client {
     display: inline-block;
     height: 180px;
     width: 180px;
@@ -97,8 +106,22 @@ footer{
     box-sizing: border-box;
     padding: 0;
 }
+.client {
+    background-color: rgb(241,241,241);
+}
+.things {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.thing {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: #00ffff;
+    margin-left: 10px;
+}
 .box-text {
-    margin-top: 40px;
+    margin-top: 30px;
     display: inline-block;
     line-height: 25px;
 }
@@ -147,28 +170,35 @@ footer{
 .our-people, .our-things, .our-clients, .contact-us {
     color: rgb(0,0,0);
 }
-#red-section-01 h1 {
+.red-section h1 {
     position: relative;
     top: 90px;
     max-width: 680px;
     margin: 0 auto;
     line-height: 49px;
 }
-.our-people h1, .our-space h1 {
+.red-section h2 {
+    font-family: 'Droid Serif', sans-serif;
+    position: relative;
+    top: 110px;
+}
+.our-people h1, .our-space h1, {
     margin-bottom: 14px;
 }
 .our-people h2, .our-space h2 {
     margin-bottom: 50px;
 }
 .section-headlines {
-    position: absolute;
+    position: relative;
     z-index: 2;
     /* display: inline-block; */
-    margin-bottom: -119px;
+    /*margin-bottom: -119px;*/
     /* float: left; */
     margin: 0 auto;
-    left: 17%;
-    margin-top: 60px;
+    width: 630px;
+    /* left: 17%; */
+    /* margin-top: 60px; */
+    /*top: 60px;*/
 }
 .tim {
     background-image: url('../images/team/1-Tim.jpg');
@@ -248,8 +278,65 @@ footer{
     background-repeat: no-repeat;
     background-size: 320%;
 }
-.person {
-
+.clearchoice {
+    background-image: url('../images/clients/');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.sears {
+    background-image: url('../images/clients/');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.kellogg {
+    background-image: url('../images/clients/');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.devry {
+    background-image: url('../images/clients/');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.nationalrealtors {
+    background-image: url('../images/clients/');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.erie {
+    background-image: url('../images/clients/');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.uscell {
+    background-image: url('../images/clients/');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.wilson {
+    background-image: url('../images/clients/');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.honeywell {
+    background-image: url('../images/clients/');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cancertreatment {
+    background-image: url('../images/clients/');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .flip {
     background-color: grey;
@@ -266,11 +353,11 @@ footer{
     color: rgb(255,255,255);
 }
 .our-work {
-    height: 848px;
+    height: 818px;
     background-image: url(../images/carecenter.png);
     background-repeat: no-repeat;
-    background-position: 0px 0px;
-    background-size: 100%;
+    background-position: -200px 0px;
+    background-size: 120%;
 }
 /* other */
 #bgvid {
@@ -301,6 +388,7 @@ footer{
   z-index: 1;
   /*margin:5% auto 0;*/
   height: 600px;
+  margin-top: -180px;
 }
 
 /**
@@ -498,7 +586,7 @@ footer{
   height: 330px;
 }
 
-.carousel h1{
+/*.carousel h1{
     width:100px;
   height:100px;
   background-color:rgba(146, 45, 141,0.7);
@@ -507,7 +595,7 @@ footer{
     color:#fff;
     font-size:2.4em;
   border-radius:50%;
-}
+}*/
 
 .slide:nth-child(1){
     background-image: url(../images/space/Photo-1.jpg);
@@ -559,3 +647,54 @@ footer{
     background-repeat: no-repeat;
     background-position: center;
  }
+a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+.guy, .guy2 {
+    height: 43px;
+    width: 27px;
+    position: relative;
+    top: 80px;
+}
+.guy2 {
+    top: 100px;
+}
+#section-04 h1 {
+    position: relative;
+}
+#section-04 h2 {
+    position: relative;
+    top: 10px;
+}
+.button {
+    width: 245px;
+    height: 58px;
+    border: 3px solid rgb(84,175,195);
+    background-color: rgb(173,178,182);
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+.button-text {
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+#people {
+    padding-top: 10px;
+}
+#red-section-04 {
+    margin-top:250px;
+}
+.main-sections {
+    padding-top: 80px;
+}
+footer {
+    height: 405px;
+    background-image: url(../images/footer_bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+}
