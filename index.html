@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>CVLN civilan</title>
 	<link href='http://fonts.googleapis.com/css?family=Muli:300,400,300italic,400italic|Droid+Serif:400,400italic' rel='stylesheet' type='text/css'>
+	<link type="text/css" rel="stylesheet" href="assets/css/webfontkit-20141208-130438/stylesheet.css">
 	<link type="text/css" rel="stylesheet" href="assets/css/reset.css">
 	<link type="text/css" rel="stylesheet" href="assets/css/main.css">
 	
@@ -27,7 +28,7 @@
 			<div id="headline">
 				<div class="headline-container">
 					<h1 class="main-headline">Uncommonly Humanistic</h1>
-					<h2 class="second-headline" >content <span class="red-line" >/</span> digital <span class="red-line" >/</span> perfomance marketing</h2>
+					<h2 class="second-headline">content <span class="red-line" >/</span> digital <span class="red-line" >/</span> perfomance marketing</h2>
 				</div>
 			</div>
 				<video autoplay="" loop="" poster="assets/videos/boat.png" id="bgvid">
@@ -47,10 +48,22 @@
 				<div class="people-container">
 					<ul class="people">
 						<li class="person tim">
-							<div class="flip">
+							<div id="bigshow-01">
+								<div class="detail-copy">
+									<h1>Tim Claffey</h1>
+									<h2>El Presidente, Truth Seeker, Filmmaker</h2>
+								</div>
+							</div>
+							<div id="showit-01">
+								<div>
+									
+								</div>
+							</div>
+							<div class="flip test" id="personality-01">
 								<span class="box-text">Meet our one-of-a-kind, in-house, fantastic four production team.</span>
 							</div>
 						</li>
+						
 						<li class="person lori">
 							<div class="flip">
 								<span class="box-text">Meet our one-of-a-kind, in-house, fantastic four production team.</span>
@@ -176,20 +189,22 @@
 				<h1>our clients</h1>
 				<h2>We think of them as partners, collaborators, conspirators in turning their brands on in new and unexpected ways.</h2>
 			</div>
-			<ul class="clients">
-				<li class="client clearchoice"></li>
-				<li class="client sears"></li>
-				<li class="client kellogg"></li>
-				<li class="client devry"></li>
-				<li class="client nationalrealtors"></li>
-			</ul>
-			<ul class="clients">
-				<li class="client erie"></li>
-				<li class="client uscell"></li>
-				<li class="client wilson"></li>
-				<li class="client honeywell"></li>
-				<li class="client cancertreatment"></li>
-			</ul>
+			<div class="clients-container">
+				<ul class="clients">
+					<li class="client clearchoice"></li>
+					<li class="client sears"></li>
+					<li class="client kellogg"></li>
+					<li class="client devry"></li>
+					<li class="client nationalrealtors"></li>
+				</ul>
+				<ul class="clients">
+					<li class="client erie"></li>
+					<li class="client uscell"></li>
+					<li class="client wilson"></li>
+					<li class="client honeywell"></li>
+					<li class="client cancertreatment"></li>
+				</ul>
+				</div>
 		</section>
 		<section id="red-section-03" class="red-section">
 			<h1>We are a forward-slash agency steeped in C/D/P* marketing.</h1>
@@ -200,11 +215,30 @@
 				<h1>our thing(s)</h1>
 				<h2>Whether it’s awareness, acquisition, activation, optimization or retention, it all comes down to these three things:</h2>
 			</div>
-			<ul class="things">
-				<li class="thing"></li>
-				<li class="thing"></li>
-				<li class="thing"></li>
-			</ul>
+			<div class="things-container">
+				<ul class="things">
+					<li class="thing strategy">
+						<h1>Strategy</h1>
+					</li>
+					<li class="thing creative">
+						<h1>Creative</h1>
+					</li>
+					<li class="thing delivery">
+						<h1>Delivery</h1>
+					</li>
+				</ul>
+				<ul class="things-copy">
+					<li class="thing-copy">
+						<p>We do our homework, find the true problem, gather meaningful insights, then turn those insights into an actionable strategy.</p>
+					</li>
+					<li class="thing-copy">
+						<p>We develop a central, organizing idea, then bring that idea to life visually and verbally. All designed to inspire people to action.</p>
+					</li>
+					<li class="thing-copy">
+						<p>We make the stuff; websites get built, spots get shot and edited, ads get produced and trafficked with great attention to detail.</p>
+					</li>
+				</ul>
+			</div>
 			<section id="red-section-04" class="red-section">
 				<div class="section-headlines" >
 					<h1>If you're a people person give us a shout.</h1>
@@ -214,10 +248,11 @@
 		</section>
 		
 		<section id="section-07" class="contact-us main-sections">
-			<div class="section-headlines" >
+			<div class="section-headlines contact-headlines" >
 				<h1>find us</h1>
 				<h2>Let’s talk about growing together. For clients, that means growing your brand. For prospective employees, that means growing your career.</h2>
 			</div>
+			<div id="google-map"></div>
 		</section>
 		<footer>
 			<div class="column3rds">
@@ -246,5 +281,28 @@
 	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 	<script src="assets/js/script.js"></script>
 	<script src="assets/js/smooth.js"></script>
+						<script>
+							$('#showit-01').click(function(){
+								$('#bigshow-01').animate({
+									opacity: 1
+								});
+								$('#bigshow-01').css('display', 'inline-block');
+								$('#personality-01').css('display', 'none');
+								$('.flip').css('opacity','0');
+							});
+							$('#bigshow-01').click(function(){
+								$('#bigshow-01').animate({
+									opacity: 0
+								});
+								$('#bigshow-01').css('display', 'none');
+								$('.flip').css('opacity','1');
+							});
+							/*while($('#big-show').css('display') === 'inline-block') {
+								shuffle() break;
+							}*/
+
+						</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGwpsGSsM04Ggavi7QEAiBW8YhNoL7IjM"></script>
+	<script src="assets/js/map.js"></script>
 </body>
 </html>
