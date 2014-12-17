@@ -1,0 +1,495 @@
+
+.tim {
+    background-image: url('../images/team/1-Tim.jpg');
+    background-position: -120px -70px;
+    background-repeat: no-repeat;
+    background-size: 300%;
+}
+.tim-pp {
+    background-image: url('../images/team/person/tim.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.lori {
+    background-image: url('../images/team/2-Lori.jpg');
+    background-position: -40px -10px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+.lori-pp {
+    background-image: url('../images/team/person/lori.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.mattm {
+    background-image: url('../images/team/3-MattM.jpg');
+    background-position: -150px -10px;
+    background-repeat: no-repeat;
+    background-size: 210%;
+}
+.mattm-pp {
+    background-image: url('../images/team/person/mattm.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.david {
+    background-image: url('../images/team/4-David.jpg');
+    background-position: -77px -20px;
+    background-repeat: no-repeat;
+    background-size: 220%;
+}
+.david-pp {
+    background-image: url('../images/team/person/david.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.alicia {
+    background-image: url('../images/team/5-Alicia.jpg');
+    background-position: -127px -10px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+.alicia-pp {
+    background-image: url('../images/team/person/alicia.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.len {
+    background-image: url('../images/team/6-Len.jpg');
+    background-position: -137px -20px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+.len-pp {
+    background-image: url('../images/team/person/len.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bridget {
+    background-image: url('../images/team/7-Bridget.jpg');
+    background-position: -117px -8px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+.bridget-pp {
+    background-image: url('../images/team/person/bridget.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.matts {
+    background-image: url('../images/team/8-MattS.jpg');
+    background-position: -157px -20px;
+    background-repeat: no-repeat;
+    background-size: 220%;
+}
+.matts-pp {
+    background-image: url('../images/team/person/matts.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.carrie {
+    background-image: url('../images/team/9-Carrie.jpg');
+    background-position: -127px -10px;
+    background-repeat: no-repeat;
+    background-size: 201%;
+}
+.carrie-pp {
+    background-image: url('../images/team/person/carrie.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.cathy {
+    background-image: url('../images/team/10-Cathy.jpg');
+    background-position: -143px -12px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+.cathy-pp {
+    background-image: url('../images/team/person/cathy.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.clarke {
+    background-image: url('../images/team/11-Clarke.jpg');
+    background-position: -131px -5px;
+    background-repeat: no-repeat;
+    background-size: 190%;
+}
+.clarke-pp {
+    background-image: url('../images/team/person/clarke.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.jessica {
+    background-image: url('../images/team/12-Jessica.jpg');
+    background-position: -77px -20px;
+    background-repeat: no-repeat;
+    background-size: 220%;
+}
+.jessica-pp {
+    background-image: url('../images/team/person/jessica.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.meghan {
+    background-image: url('../images/team/13-Meghan.jpg');
+    background-position: -178px -64px;
+    background-repeat: no-repeat;
+    background-size: 320%;
+}
+.meghan-pp {
+    background-image: url('../images/team/person/meghan.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*******************************************************************************************/
+#bigshow-01 {
+    display:none; 
+    background-color: black; 
+    opacity:0; 
+    width: 380px; 
+    height: 370px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 81;
+    background-image: url('../images/team/1-Tim.jpg');
+    background-position: -210px -140px;
+    background-repeat: no-repeat;
+    background-size: 270%;
+}
+#showit-01 {
+    display:inline-block; 
+    background-color: black; 
+    width: 180px; 
+    height: 180px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 82;
+    opacity:0;
+    cursor:pointer;
+}
+/*******************************************************************************************/
+#bigshow-02 {
+    display:none; 
+    background-color: black; 
+    opacity:0; 
+    width: 380px; 
+    height: 370px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 81;
+    background-image: url('../images/team/2-Lori.jpg');
+    background-position: -40px -10px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+#showit-02 {
+    display:inline-block; 
+    background-color: black; 
+    width: 180px; 
+    height: 180px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 82;
+    opacity:0;
+    cursor:pointer;
+}
+/*******************************************************************************************/
+#bigshow-03 {
+    display:none; 
+    background-color: black; 
+    opacity:0; 
+    width: 380px; 
+    height: 370px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 81;
+    background-image: url('../images/team/3-MattM.jpg');
+    background-position: -40px -10px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+#showit-03 {
+    display:inline-block; 
+    background-color: black; 
+    width: 180px; 
+    height: 180px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 82;
+    opacity:0;
+    cursor:pointer;
+}
+/*******************************************************************************************/
+#bigshow-03 {
+    display:none; 
+    background-color: black; 
+    opacity:0; 
+    width: 380px; 
+    height: 370px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 81;
+    background-image: url('../images/team/4-David.jpg');
+    background-position: -40px -10px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+#showit-03 {
+    display:inline-block; 
+    background-color: black; 
+    width: 180px; 
+    height: 180px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 82;
+    opacity:0;
+    cursor:pointer;
+}
+/*******************************************************************************************/
+#bigshow-04 {
+    display:none; 
+    background-color: black; 
+    opacity:0; 
+    width: 380px; 
+    height: 370px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 81;
+    background-image: url('../images/team/5-Alicia.jpg');
+    background-position: -40px -10px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+#showit-04 {
+    display:inline-block; 
+    background-color: black; 
+    width: 180px; 
+    height: 180px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 82;
+    opacity:0;
+    cursor:pointer;
+}
+/*******************************************************************************************/
+#bigshow-05 {
+    display:none; 
+    background-color: black; 
+    opacity:0; 
+    width: 380px; 
+    height: 370px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 81;
+    background-image: url('../images/team/6-Cl.jpg');
+    background-position: -40px -10px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+#showit-05 {
+    display:inline-block; 
+    background-color: black; 
+    width: 180px; 
+    height: 180px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 82;
+    opacity:0;
+    cursor:pointer;
+}
+/*******************************************************************************************/
+#bigshow-06 {
+    display:none; 
+    background-color: black; 
+    opacity:0; 
+    width: 380px; 
+    height: 370px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 81;
+    background-image: url('../images/team/2-Lori.jpg');
+    background-position: -40px -10px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+#showit-06 {
+    display:inline-block; 
+    background-color: black; 
+    width: 180px; 
+    height: 180px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 82;
+    opacity:0;
+    cursor:pointer;
+}
+/*******************************************************************************************/
+#bigshow-07 {
+    display:none; 
+    background-color: black; 
+    opacity:0; 
+    width: 380px; 
+    height: 370px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 81;
+    background-image: url('../images/team/2-Lori.jpg');
+    background-position: -40px -10px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+#showit-07 {
+    display:inline-block; 
+    background-color: black; 
+    width: 180px; 
+    height: 180px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 82;
+    opacity:0;
+    cursor:pointer;
+}
+/*******************************************************************************************/
+#bigshow-08 {
+    display:none; 
+    background-color: black; 
+    opacity:0; 
+    width: 380px; 
+    height: 370px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 81;
+    background-image: url('../images/team/2-Lori.jpg');
+    background-position: -40px -10px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+#showit-08 {
+    display:inline-block; 
+    background-color: black; 
+    width: 180px; 
+    height: 180px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 82;
+    opacity:0;
+    cursor:pointer;
+}
+/*******************************************************************************************/
+#bigshow-09 {
+    display:none; 
+    background-color: black; 
+    opacity:0; 
+    width: 380px; 
+    height: 370px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 81;
+    background-image: url('../images/team/2-Lori.jpg');
+    background-position: -40px -10px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+#showit-09 {
+    display:inline-block; 
+    background-color: black; 
+    width: 180px; 
+    height: 180px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 82;
+    opacity:0;
+    cursor:pointer;
+}
+/*******************************************************************************************/
+#bigshow-10 {
+    display:none; 
+    background-color: black; 
+    opacity:0; 
+    width: 380px; 
+    height: 370px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 81;
+    background-image: url('../images/team/2-Lori.jpg');
+    background-position: -40px -10px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+#showit-10 {
+    display:inline-block; 
+    background-color: black; 
+    width: 180px; 
+    height: 180px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 82;
+    opacity:0;
+    cursor:pointer;
+}
+/*******************************************************************************************/
+#bigshow-11 {
+    display:none; 
+    background-color: black; 
+    opacity:0; 
+    width: 380px; 
+    height: 370px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 81;
+    background-image: url('../images/team/2-Lori.jpg');
+    background-position: -40px -10px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+}
+#showit-11 {
+    display:inline-block; 
+    background-color: black; 
+    width: 180px; 
+    height: 180px;
+    position:relative;
+    top: 0;
+    left: 0;
+    z-index: 82;
+    opacity:0;
+    cursor:pointer;
+}
+/*******************************************************************************************/
