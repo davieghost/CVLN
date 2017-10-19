@@ -1,4 +1,3 @@
-CVLN
-====
+### Static Civilian Agency Site
 
-Website (static) for civilian
+*no longer online*
